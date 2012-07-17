@@ -67,6 +67,84 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/layout.css",
+			"settings":
+			{
+				"buffer_size": 3104,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"sr-RS\">\n  <head>\n    <meta charset=\"utf-8\">\n	<title>I MAY valjda bese tako se zove</title>\n\n	<meta name=\"description\" content=\"Opis\" />\n	<meta name=\"keywords\" content=\"Key\" />\n	<meta name=\"robots\" content=\"index, follow\" />\n	\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"layout.css\" media=\"screen\" />	\n</head>\n<body>\n<div id=\"fixed\">\n<div id=\"header\">\n	<h1>Header \"Fixed fluid sirina browsera\"</h1>\n	<p><em>Ako ga bude bilo, mozda vece kutije? Nazad na <a href=\"index.html\">PUNA SIRIAN BROWSERA</a></em></p>\n</div>\n<div id=\"wrapper\">\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n	<div id=\"box1wrap\">\n		<div id=\"box1\">\n			<div id=\"box1pad\">\n				<h2>200 x 200 px</h2>\n				<p>Neki tekst naslov itd</p>\n				<p>Jos teksta podtekst datum itd</p>\n			</div>\n		</div>\n	</div>\n\n</div>\n\n\n<div id=\"footer\">\n	<p>FOOTER</p>\n</div>\n\n\n</div>\n\n</body>\n</html>\n\n",
+			"file": "/C/Users/Multimedia/Desktop/PROJEKAT MEA-I/RADNI ELEMENTI/i-may/fixed.html",
+			"file_size": 8544,
+			"file_write_time": 129835545345310587,
+			"settings":
+			{
+				"buffer_size": 5716,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "onecolumn-page.php",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/layout.scss",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/footer.scss",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "		\n		/*GENERAL*/\n		body {\n			border:0;\n		}\n		* {\n			margin:0;\n			padding:0;\n			-webkit-transition:all 0.3s;\n			-moz-transition:all 0.3s;\n			-o-transition:all 0.3s;\n			-ms-transition:all 0.3s;\n			transition:all 0.3s;\n		}\n		a{\n			color:#5795ff;\n		}\n		h2 {\n			padding:.2em 0 0 0;\n			font-size:1.4em;\n		}\n		h3 {\n			padding:1em 0 0 0;\n			font-size:1.2em;\n		}\n		p {\n			padding:.5em 0 0 0;\n		}\n		ul li {\n			margin-left:2em;\n		}\n		#header {\n			padding:10px 20px;\n			background:#000;\n			color:#fff;\n		}\n		#wrapper {\n			clear:left;\n			float:left;\n			width:100%;\n			background:#f4f4f4;\n			padding: 0 0 20px 0;\n		}\n\n		/*KUTIJE*/\n		#box1wrap {\n			float:left;\n			width:220px;\n			margin-top:20px;\n		}\n		#box1 {\n			float:right;\n			width:200px;\n			height:200px;\n			background-color:#fff;\n			border-radius:4px;\n		}\n		#box1:hover{\n			background-color:#f2f4fa;\n			-moz-box-shadow: 0 0 5px #5795ff;\n			-webkit-box-shadow: 0 0 5px #5795ff;\n			box-shadow: 0 0 5px #5795ff;\n		}\n\n		#box1pad {\n			position:relative;\n			left:5px;\n			float:right;\n			width:200px;\n			overflow:hidden;\n		}\n\n\n		/*VARIJACIJE mada prva je bingo*/\n		#box2wrap {\n			float:left;\n			width:320px;\n			height:820px;\n			margin-top:20px;\n		}\n		#box2 {\n			float:right;\n			width:300px;\n			height:820px;\n			background:#fff;\n			padding-bottom:5px;\n		}\n		#box2pad {\n			position:relative;\n			right:5px;\n			float:right;\n			width:290px;\n			overflow:hidden;\n		}\n		.box3wrap {\n			float:left;\n			width:220px;\n			margin-top:20px;\n		}\n		.box3 {\n			float:right;\n			width:200px;\n			height:400px;\n			background:#fff;\n			padding-bottom:5px;\n		}\n		.box3pad {\n			position:relative;\n			right:5px;\n			float:right;\n			width:190px;\n			overflow:hidden;\n		}\n\n		/*FOOTER*/\n		#footer {\n			background:#000;\n			color:#fff;\n			clear:left;\n			padding:10px 20px;\n			height:60px;\n		}",
+			"file": "/C/Users/Multimedia/Desktop/PROJEKAT MEA-I/RADNI ELEMENTI/i-may/layout.css",
+			"file_size": 1995,
+			"file_write_time": 129835548020053573,
+			"settings":
+			{
+				"buffer_size": 1791,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/base.scss",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -75,15 +153,19 @@
 		"selected_items":
 		[
 			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
 				"Package Control: Install Package"
 			],
 			[
@@ -105,10 +187,6 @@
 			[
 				"paca",
 				"Package Control: Install Package"
-			],
-			[
-				"gist",
-				"Gist: Open Gist"
 			],
 			[
 				"Package Control: ",
@@ -160,6 +238,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Multimedia/Desktop/RLV_0001_17_07_2012.xlt",
+		"/C/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/style.css",
+		"/C/Web Sajtovi/mea-i.org/wp-config.php",
+		"/C/Web Sajtovi/mea-i.org/.htaccess",
 		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/home.php",
@@ -283,11 +365,7 @@
 		"/C/xampp/htdocs/wp-content/themes/ndk/loop-single.php",
 		"/C/xampp/htdocs/wp-content/themes/ndk/404.php",
 		"/C/xampp/htdocs/wp-content/themes/ndk/archive.php",
-		"/C/xampp/htdocs/wp-content/themes/ndk/attachment.php",
-		"/C/xampp/htdocs/wp-content/themes/ndk/author.php",
-		"/C/xampp/htdocs/wp-content/themes/ndk/category.php",
-		"/C/xampp/htdocs/wp-content/themes/ndk/comments.php",
-		"/C/xampp/htdocs/wp-content/themes/ndk/loop-attachment.php"
+		"/C/xampp/htdocs/wp-content/themes/ndk/attachment.php"
 	],
 	"find":
 	{
@@ -367,13 +445,265 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/layout.css",
+					"settings":
+					{
+						"buffer_size": 3104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2930,
+								2930
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1710.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Multimedia/Desktop/PROJEKAT MEA-I/RADNI ELEMENTI/i-may/fixed.html",
+					"settings":
+					{
+						"buffer_size": 5716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5639,
+								5639
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								632,
+								632
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								760,
+								760
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "onecolumn-page.php",
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 5,
+					"file": "sass/layout.scss",
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/footer.scss",
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Multimedia/Desktop/PROJEKAT MEA-I/RADNI ELEMENTI/i-may/layout.css",
+					"settings":
+					{
+						"buffer_size": 1791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								603
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/base.scss",
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
