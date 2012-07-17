@@ -1,0 +1,14 @@
+/*FOOTER*/
+footer {
+	color:$futerboja;
+	clear:left;
+	padding:10px 20px;
+	height:60px;
+
+	a {
+		color:$futerboja;
+		&:hover {
+			color:$hoverboja;
+		}
+	}
+}

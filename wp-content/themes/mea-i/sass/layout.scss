@@ -1,0 +1,24 @@
+@import "base";
+
+$bojaPozadine: #000000;
+$bojaFonta: #ffffff;
+$futerboja: #3b3b3b;
+$hoverboja: red;
+$font: Arial, san-serif;
+
+body {
+	background:$bojaPozadine;
+	color:$bojaFonta;
+	font-family:$font;
+	text-align:justify;
+	font-weight:normal;
+}
+
+#page-wrap{
+	clear:left;
+	float:left;
+	width:80%;
+	margin:0 10% 0 10%;
+}
+
+@import "footer";

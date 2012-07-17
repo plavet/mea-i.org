@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"n",
+				"normal	(n)"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-variant"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Short paragraph"
+			],
+			[
+				"nav",
+				"nav	nav - Placeholder"
+			],
+			[
+				"disp",
+				"display	display: block"
+			],
+			[
+				"displa",
+				"display	display: inline"
+			],
+			[
+				"sho",
+				"shopping_cart"
+			],
+			[
+				"article",
+				"ARTICLE"
+			],
+			[
+				"ar",
+				"article	<article>"
+			],
+			[
+				"h",
+				"h2"
+			],
+			[
+				"ul",
+				"ul: <ul>"
+			],
+			[
+				"html",
+				"html: html"
+			],
+			[
+				"link",
+				"link: link - stylesheet"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 259.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"apc",
+				"Package Control: List Packages"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch: Manage remote files"
+			],
+			[
+				"fe",
+				"Fetch"
+			],
+			[
+				"Snippet: d",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <base>"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/home.php",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/js/engine.js",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/page.php",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/where.php",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/style.css",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/footer.php",
+		"/C/Users/Multimedia/Desktop/PROJEKAT INDIEORACLE/NOVI RADNI ELEMENTI/SPRITE/sprites-ostatak.css",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/about.php",
+		"/C/Web Sajtovi/indieoracle.com/wp-content/themes/indieoracle/mission.php",
+		"/C/Users/Multimedia/Desktop/KONTAKT SKRIPTA/contact.html",
+		"/C/Users/Multimedia/Desktop/URADI DEMO PESAMA PRE SNIMANJA - skoro gotovo",
+		"/C/Web Sajtovi/gogaclub.com/kontakt.html",
+		"/C/Web Sajtovi/gogaclub.com/en/js/jquery.template.js",
+		"/C/Web Sajtovi/gogaclub.com/index.html",
+		"/C/Web Sajtovi/gogaclub.com/en/index.html",
+		"/C/Web Sajtovi/gogaclub.com/en/pica.html",
+		"/C/Web Sajtovi/gogaclub.com/en/proslave.html",
+		"/C/Web Sajtovi/gogaclub.com/en/jelovnik.html",
+		"/C/Web Sajtovi/gogaclub.com/en/onama.html",
+		"/C/Web Sajtovi/gogaclub.com/en/kontakt.html",
+		"/C/Web Sajtovi/gogaclub.com/js/jquery.template.js",
+		"/C/Users/Multimedia/AppData/Local/Temp/d046ede1-094b-4a10-b5d1-fb661ba28d19/TEST/claire-final/documentaries.php",
+		"/C/Users/Multimedia/AppData/Local/Temp/d046ede1-094b-4a10-b5d1-fb661ba28d19/TEST/claire-final/js/engine.js",
+		"/C/Users/Multimedia/AppData/Local/Temp/d046ede1-094b-4a10-b5d1-fb661ba28d19/TEST/claire-final/css/main.css",
+		"/C/Users/Multimedia/AppData/Local/Temp/38bcf1ef-d9fe-409e-954a-369ca31296ed/public_html/djordjestijepovic.com/wp-content/themes/djordjestijepovic/footer.php",
+		"/C/Users/Multimedia/AppData/Local/Temp/d046ede1-094b-4a10-b5d1-fb661ba28d19/TEST/claire-final/biography.php",
+		"/C/Users/Multimedia/Desktop/arpad mejl.txt",
+		"/C/Users/Multimedia/AppData/Local/Temp/6ff35188-ca7a-49b6-b461-8a7cfd8a03e6/public_html/wp-content/themes/ndk/footer.php",
+		"/C/Users/Multimedia/AppData/Local/Temp/6ff35188-ca7a-49b6-b461-8a7cfd8a03e6/public_html/wp-content/themes/ndk/header.php",
+		"/C/Users/Multimedia/AppData/Local/Temp/d046ede1-094b-4a10-b5d1-fb661ba28d19/TEST/claire-final/contact.php",
+		"/C/Users/Multimedia/AppData/Local/Temp/99537a12-d2ed-48f6-aa59-7b10567980de/public_html/wp-content/themes/plavet/style.css",
+		"/C/Users/Multimedia/Desktop/DJOSH TEMA 30 april 2012/djordjestijepovic/loop-attachment.php",
+		"/C/Users/Multimedia/Desktop/DJOSH TEMA 30 april 2012/djordjestijepovic/functions.php",
+		"/C/Users/Multimedia/Desktop/DJOSH TEMA 30 april 2012/djordjestijepovic/header.php",
+		"/C/Users/Multimedia/Desktop/DJOSH TEMA 30 april 2012/djordjestijepovic/footer.php",
+		"/C/Users/Multimedia/Desktop/prettyPhoto_uncompressed_3.1.4/js/jquery.prettyPhoto.js",
+		"/C/Users/Multimedia/Desktop/prettyPhoto_compressed_3.1.4/js/jquery.prettyPhoto.js",
+		"/C/Users/Multimedia/Desktop/DJOSH TEMA 30 april 2012/djordjestijepovic/attachment.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/Users/Multimedia/Desktop/PROJEKAT MILANKOVIC/.htaccess",
+		"/C/xampp/htdocs/djordje/wp-content/themes/djordjestijepovic/index.php",
+		"/C/Users/Multimedia/Desktop/colorbox/colorbox/jquery.colorbox.js",
+		"/C/Users/Multimedia/Desktop/colorbox/colorbox.ai",
+		"/C/Users/Multimedia/Desktop/prettyPhoto_compressed_3.1.4/index.html",
+		"/C/Users/Multimedia/Desktop/colorbox/readme.md",
+		"/C/Users/Multimedia/Desktop/PROJEKAT SUDSFORCUBA/sudsforcuba/functions.php",
+		"/C/Users/Multimedia/Desktop/PROJEKAT SUDSFORCUBA/sudsforcuba/loop-single.php",
+		"/C/Users/Multimedia/Desktop/PROJEKAT MILANKOVIC/functions.php",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/onecolumn-page.php",
+		"/C/Users/Multimedia/Desktop/PROJEKAT SUDSFORCUBA/sudsforcuba/style.css",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/footer.php",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/Themr/Default (Windows).sublime-keymap",
+		"/C/Users/Multimedia/Desktop/index.html",
+		"/C/xampp/htdocs/index.html",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Multimedia/Desktop/PROJEKAT SUDSFORCUBA/sudsforcuba/README.md",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/index.php",
+		"/C/Users/Multimedia/Desktop/.maintenance",
+		"/C/Users/Multimedia/Desktop/.htaccess",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/functions.php",
+		"/C/Users/Multimedia/Desktop/breadcrumb-trail.php",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/loop-page.php",
+		"/C/Users/Multimedia/Desktop/ie9.css",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/single.php",
+		"/C/Users/Multimedia/Desktop/jquery-1.5.1.min.js",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/comments.php",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/C/users/multim~1/appdata/local/temp/sublime-sftp-browse-1326768252/plavet.net/public_html/wp-content/themes/plavet-child/style.css",
+		"/C/Users/Multimedia/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/plavet.net",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/header.php",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/page.php",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/sidebar.php",
+		"/C/Users/Multimedia/Desktop/NDK/NDK TEMA/ndk/page.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/css/ie.css",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/css/layout.css",
+		"/C/Users/Multimedia/Desktop/NDK/layout.css",
+		"/C/Users/Multimedia/Desktop/NDK/NDK TEMA/ndk/loop-single.php",
+		"/C/Users/Multimedia/Desktop/wp-config.php",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/loop.php",
+		"/C/Users/Multimedia/Desktop/djordjestijepovic/loop-single.php",
+		"/C/Users/Multimedia/Desktop/config.php",
+		"/C/Users/Multimedia/Desktop/phplist-2.10.17/public_html/lists/config/config.php",
+		"/C/Users/Multimedia/Desktop/phplist-2.10.17/INSTALL",
+		"/C/Users/Multimedia/Desktop/README.bounces",
+		"/C/xampp/htdocs/djordje/wp-content/themes/djordjestijepovic/single.php",
+		"/C/xampp/htdocs/djordje/wp-content/themes/djordjestijepovic/page.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/header.php",
+		"/C/Users/Multimedia/Desktop/layout.css",
+		"/C/Users/Multimedia/Desktop/header.php",
+		"/C/xampp/htdocs/djordje/wp-content/themes/djordjestijepovic/style.css",
+		"/C/xampp/htdocs/djordje/wp-content/themes/djordjestijepovic2/style.css",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/footer.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/proizvodi-topoloveoblice.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/proizvodi-sperploca.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/proizvodi-plemenitifurnir.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/proizvodi-parket.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/proizvodi-panelploca.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/index.php",
+		"/C/xampp/htdocs/ndk/wp-content/themes/ndk/onecolumn-page.php",
+		"/C/Users/Multimedia/Desktop/XAMPP GENERALNI BEKAP/wp-content/themes/uks/css/layout.css",
+		"/C/xampp/htdocs/ndk/wp-config.php",
+		"/C/xampp/htdocs/ndk/.htaccess",
+		"/C/xampp/htdocs/wp-content/themes/ndk/loop-page.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/page.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/footer.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/index.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/header.php",
+		"/C/Users/Multimedia/Desktop/XAMPP GENERALNI BEKAP/wp-content/themes/uks/biografije.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/functions.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/css/layout.css",
+		"/C/Users/Multimedia/Desktop/XAMPP GENERALNI BEKAP/plavet/wp-config.php",
+		"/C/Users/Multimedia/Desktop/XAMPP GENERALNI BEKAP/milankovic/wp-content/themes/milankovic/css/layout.css",
+		"/C/xampp/htdocs/wp-content/themes/ndk/style.css",
+		"/C/xampp/htdocs/wp-content/themes/ndk/loop.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/loop-single.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/404.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/archive.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/attachment.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/author.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/category.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/comments.php",
+		"/C/xampp/htdocs/wp-content/themes/ndk/loop-attachment.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1",
+			"0 1px 1px rgba(0, 0, 0, 0.075)",
+			"210x144",
+			"              <p><a href=\"#\" class=\"btn btn-primary\">Action</a> <a href=\"#\" class=\"btn\">Action</a></p>",
+			"200x100",
+			"260x180",
+			"plavet",
+			"/",
+			"*",
+			"images",
+			"single-gallery-view-nav",
+			"pages",
+			"paged",
+			"();?>",
+			"additional",
+			"discography",
+			"1s",
+			"music",
+			"interviews",
+			"gear",
+			"interviews",
+			"|",
+			"Blast Cult's “The Great White”",
+			"gear",
+			"hires",
+			"h2.",
+			"font-size",
+			"img",
+			"h1",
+			".ie",
+			"img",
+			"comments are closed",
+			"header",
+			"hgroup",
+			"#header",
+			"178.22.220.2",
+			"triger",
+			"p",
+			"ul",
+			"body",
+			"background:hsla(230, 84%, 0%, 0.40);",
+			"0.375",
+			"li",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"header"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.440594059406,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 110.0
+	},
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"s",
+				"store.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}
