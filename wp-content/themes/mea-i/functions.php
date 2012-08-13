@@ -1,41 +1,9 @@
 <?php
 /**
- * TwentyTen functions and definitions
- *
- * Sets up the theme and provides some helper functions. Some helper functions
- * are used in the theme as custom template tags. Others are attached to action and
- * filter hooks in WordPress to change core functionality.
- *
- * The first function, twentyten_setup(), sets up the theme by registering support
- * for various features in WordPress, such as post thumbnails, navigation menus, and the like.
- *
- * When using a child theme (see http://codex.wordpress.org/Theme_Development and
- * http://codex.wordpress.org/Child_Themes), you can override certain functions
- * (those wrapped in a function_exists() call) by defining them first in your child theme's
- * functions.php file. The child theme's functions.php file is included before the parent
- * theme's file, so the child theme functions would be used.
- *
- * Functions that are not pluggable (not wrapped in function_exists()) are instead attached
- * to a filter or action hook. The hook can be removed by using remove_action() or
- * remove_filter() and you can attach your own function to the hook.
- *
- * We can remove the parent theme's hook only after it is attached, which means we need to
- * wait until setting up the child theme:
- *
- * <code>
- * add_action( 'after_setup_theme', 'my_child_theme_setup' );
- * function my_child_theme_setup() {
- *     // We are providing our own filter for excerpt_length (or using the unfiltered value)
- *     remove_filter( 'excerpt_length', 'twentyten_excerpt_length' );
- *     ...
- * }
- * </code>
- *
- * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
+ * Mea-I functions and definitions
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @subpackage Mea-I
  */
 
 /**
@@ -98,7 +66,42 @@ function twentyten_setup() {
 	) );
 
 	// This theme allows users to set a custom background
-	add_custom_background();
+	 add_theme_support( 'custom-background' );
+
+	//Add custom sort lib
+	require_once('lib/sort.php');
+
+	//Add post type formats
+	add_theme_support( 'post-formats', array( 'gallery', 'link' ) );
+	add_post_type_support( 'page', 'post-formats' ); 
+
+	// Add custom post type formats
+	add_theme_support( 'post-formats', array( 'link' ) );
+	add_post_type_support( 'members', 'post-formats' );
+
+	//Rename Featured Image Label
+	//add_action('do_meta_boxes', 'change_image_box');
+	//function change_image_box()
+	//{
+	//    remove_meta_box( 'postimagediv', 'members', 'side' );
+	//    add_meta_box('postimagediv', __('Background Image'), 'post_thumbnail_meta_box', 'members', 'side', 'default');
+	//}
+	// Add some info to the Featured image box on custom post type
+	//add_filter( 'admin_post_thumbnail_html', 'add_featured_image_instruction');
+	//function add_featured_image_instruction( $content ) {
+	//    return $content .= '<p>The Featured Image is an image that is chosen as the representative //image for Posts or Pages. Click the link above to add or change the image for this post. </p>';
+	//}
+
+	// Adds classes for custom post types to body_class() and post_class()
+	function kilmulis_add_class( $class ) {
+		$post_type = 'members'; // the Post Type
+		if ( get_query_var('post_type') === $post_type ) { // only, if post type is active
+			$class[] = $post_type;
+			$class[] = 'type-' . $post_type;
+		}
+		return $class;
+	}
+	add_filter( 'post_class', 'kilmulis_add_class' );
 
 	// Your changeable header business starts here
 	define( 'HEADER_TEXTCOLOR', '' );
@@ -120,7 +123,7 @@ function twentyten_setup() {
 
 	// Add a way for the custom header to be styled in the admin panel that controls
 	// custom headers. See twentyten_admin_header_style(), below.
-	add_custom_image_header( '', 'twentyten_admin_header_style' );
+	add_theme_support( 'custom-header' );
 
 	// ... and thus ends the changeable header business.
 
@@ -497,3 +500,6 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+
+
+/**CUSTOM BG**/

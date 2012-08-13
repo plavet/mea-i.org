@@ -8,10 +8,9 @@
  * from a dropdown menu on the edit page screen.
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @package WordPress
+ * @subpackage Mea-I
  */
-
 get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

@@ -1,10 +1,11 @@
-/*FOOTER*/
 footer {
 	color:$futerboja;
-	clear:left;
-	padding:10px 20px;
-	height:60px;
-
+	height: 60px;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 28px;
 	a {
 		color:$futerboja;
 		&:hover {

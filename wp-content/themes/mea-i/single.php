@@ -3,10 +3,9 @@
  * The Template for displaying all single posts.
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @package WordPress
+ * @subpackage Mea-I
  */
-
 get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

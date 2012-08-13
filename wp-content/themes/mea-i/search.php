@@ -3,10 +3,8 @@
  * The template for displaying Search Results pages.
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @subpackage Mea-I
  */
-
 get_header(); ?>
 
 <?php if ( have_posts() ) : ?>

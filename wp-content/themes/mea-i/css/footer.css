@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$futerboja".
-        on line 3 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss
+        on line 2 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss
 
 1: C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss
 
 Backtrace:
-C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss:3
+C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss:2
 C:/Program Files/Scout/vendor/gems/gems/sass-3.1.7/lib/sass/../sass/script/variable.rb:50:in `_perform'
 C:/Program Files/Scout/vendor/gems/gems/sass-3.1.7/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files/Scout/vendor/gems/gems/sass-3.1.7/lib/sass/../sass/tree/visitors/perform.rb:215:in `visit_prop'
@@ -80,4 +80,4 @@ C:\Program Files\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$futerboja\".\A         on line 3 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss\A \A 1: C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss"; }
+  content: "Syntax error: Undefined variable: \"$futerboja\".\A         on line 2 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss\A \A 1: C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/footer.scss"; }

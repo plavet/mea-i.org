@@ -10,14 +10,17 @@
  * @since Starkers 3.0
  */
 ?>
+<div id="footer-wrap">
 <footer>
 <?php get_sidebar( 'footer' ); ?>
 
-			<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a>
+ <a rel="loadedpage" href="<?php echo site_url(); ?>/terms-of-use/?iframe=true&width=90%&height=90%">Terms Of Use</a> |  <a rel="loadedpage" href="<?php echo site_url(); ?>/privacy-statement/?iframe=true&width=90%&height=90%">Privacy Statement</a> | Copyright &copy; 2012 MEA-I
+
+  <a class="pull-right" href="http:://kilmulis.com" title="KILMULIS Design">KILMULIS Design</a>
 
 <?php wp_footer(); ?>
 </footer>
-</div><!--/wrap-->
+</div><!--/footer-wrap-->
+</div><!--/page-wrap-->
 </body>
 </html>

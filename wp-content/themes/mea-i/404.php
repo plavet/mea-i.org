@@ -3,13 +3,9 @@
  * The template for displaying 404 pages (Not Found).
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @subpackage Mea-I
  */
-
 get_header(); ?>
-
-
 
 				<h1><?php _e( 'Not Found', 'twentyten' ); ?></h1>
 				<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>

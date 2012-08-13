@@ -1,0 +1,119 @@
+html {
+	font-size: 10px;
+}
+				
+body {
+	position: relative;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	min-height: 100%;
+}
+
+@media (min-width: 1581px) {
+		html {
+			font-size: 17px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 100% !important;
+		}
+}
+
+@media (max-width: 1580px) {
+		html {
+			font-size: 17px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 80% !important;
+		}
+}
+
+@media (max-width: 1440px) {
+		html {
+			font-size: 16px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height:100% !important;
+		}
+}
+				
+@media (max-width: 1216px) {
+		html {
+			font-size: 15px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 90% !important;
+		}
+}
+				
+@media (max-width: 1140px) {
+		html {
+			font-size: 14px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 90% !important;
+		}
+}
+			
+@media (max-width: 1064px) {
+		html {
+			font-size: 13px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 100% !important;
+		}
+}
+				
+@media (max-width: 988px) {
+		html {
+			font-size: 12px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 75% !important;
+		}
+}
+				
+@media (max-width: 912px) {
+		html {
+			font-size: 11px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 75% !important;
+		}
+}
+				
+@media (max-width: 836px) {
+		html {
+			font-size: 10px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 75% !important;
+		}
+}
+			
+@media (max-width: 760px) {
+		html {
+			font-size: 9px;
+			}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 75% !important;
+		}
+}
+				
+@media (max-width: 684px) {
+		html {
+			font-size: 8px;
+		}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 60% !important;
+		}
+}
+
+@media (max-width: 450px) {
+		html {
+			font-size: 6px;
+		}
+		.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {
+		height: 50% !important;
+		}
+}

@@ -3,22 +3,166 @@
 $bojaPozadine: #000000;
 $bojaFonta: #ffffff;
 $futerboja: #3b3b3b;
-$hoverboja: red;
-$font: Arial, san-serif;
+$hoverboja: #4d4d4d;
+
+$blue :#1167FD;
+$lightGreen :#0ED11B;
+$lightRed :#FF1B02;
+$yellow :#FEF029;
+$purple :#B20FF1;
+$lightBlue :#0BADFD;
+$orange :#FE7F1E;
+$darkRed :#930F01;
+$darkGreen :#007A0F;
+$footerLinks :#808080;
+
+@font-face
+{
+font-family: text;
+src: url('../fonts/narou.ttf'),
+     url('../fonts/narou.eot') format("opentype"); /* IE */
+}
+@font-face
+{
+font-family: text;
+src: url('../fonts/narou.ttf'),
+     url('../fonts/narou.eot') format("opentype"); /* IE */
+     font-weight:bold;
+}
+
+.skrolbar {
+	overflow:hidden;
+	padding-right:15px;
+}
 
 body {
 	background:$bojaPozadine;
 	color:$bojaFonta;
-	font-family:$font;
-	text-align:justify;
+	font-family:text;
+	font-size:90%;
+	text-align:left;
 	font-weight:normal;
 }
 
 #page-wrap{
-	clear:left;
-	float:left;
-	width:80%;
-	margin:0 10% 0 10%;
+	width:90%;
+	margin:60px 5% 0 5%;
 }
 
+.pull-right {
+	float: right;
+}
+
+span.vertical-center {
+	vertical-align: middle;
+	padding: 0 40px 40px 0;
+	display: inline-block;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: $futerboja;
+}
+
+a:hover {
+	color: $hoverboja;
+}
+
+a:focus {
+	outline: none;
+}
+
+a#login{
+	text-indent: -99999px;
+	background: url('../images/login.png') no-repeat;
+}
+a#logout{
+	text-indent: -99999px;
+	background: url('../images/logout.png') no-repeat;
+}
+
+a.post-edit-link {
+	float: left;
+	color: orange;
+	margin: 0 0 20px 20px;
+}
+
+/*KUTIJE*/
+ul#menu-navigation {
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul#menu-navigation li {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 0 10px 20px 10px;
+	opacity:0.9;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+ul#menu-navigation li:hover {
+	opacity:1;
+	transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+}
+
+ul#menu-navigation li a {
+	display:block;
+	height: 250px;
+	width: 250px;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 25px;
+	float: left;
+	color: $bojaFonta;
+	line-height: 30px;
+}
+
+ul#menu-navigation li h1 {
+	font-size: 36px;
+    line-height: 40px
+}
+
+/*BOJE KUTIJA*/
+ul#menu-navigation li.blue { background-color:$blue; }
+ul#menu-navigation li.light-green { background-color:$lightGreen; }
+ul#menu-navigation li.light-red { background-color:$lightRed; }
+ul#menu-navigation li.yellow { background-color:$yellow; }
+ul#menu-navigation li.yellow a { color: #000; }
+ul#menu-navigation li.purple { background-color:$purple; }
+ul#menu-navigation li.light-blue { background-color:$lightBlue; }
+ul#menu-navigation li.orange { background-color:$orange; }
+ul#menu-navigation li.dark-red { background-color:$darkRed; }
+ul#menu-navigation li.dark-green { background-color:$darkGreen; }
+
+ul#menu-navigation li.home {
+	text-indent:-99999px;
+	background: #000 url(../images/mea-i-logo.png) no-repeat;
+}
+
+iframe {
+	width: 100% !important;
+	/*height: 100% !important;*/
+}
+
+/*KUTIJE*/
+@import "kutije";
+
+/*SIDEBAR*/
+@import "sidebar";
+
+/*FOOTER*/
 @import "footer";

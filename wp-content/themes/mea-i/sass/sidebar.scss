@@ -1,0 +1,21 @@
+ul.sidebar {
+	position:fixed;
+	left:0;
+	top:60px;
+}
+
+ul.sidebar li a {
+	display: block;
+	margin: 0 0 10px 5px;
+	width: 39px;
+	height: 39px;
+}
+
+ul.sidebar li a img {
+	width: 39px;
+	height: 39px;
+}
+
+ul.sidebar a.simplemodal-login {
+	color:#fff;
+}

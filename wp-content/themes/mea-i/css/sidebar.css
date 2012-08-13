@@ -1,0 +1,25 @@
+/* line 1, ../sass/sidebar.scss */
+ul.sidebar {
+  position: fixed;
+  left: 0;
+  top: 60px;
+}
+
+/* line 7, ../sass/sidebar.scss */
+ul.sidebar li a {
+  display: block;
+  margin: 0 0 10px 5px;
+  width: 39px;
+  height: 39px;
+}
+
+/* line 14, ../sass/sidebar.scss */
+ul.sidebar li a img {
+  width: 39px;
+  height: 39px;
+}
+
+/* line 19, ../sass/sidebar.scss */
+ul.sidebar a.simplemodal-login {
+  color: #fff;
+}
