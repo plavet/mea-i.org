@@ -16,7 +16,7 @@
 
  <a rel="loadedpage" href="<?php echo site_url(); ?>/terms-of-use/?iframe=true&width=90%&height=90%">Terms Of Use</a> |  <a rel="loadedpage" href="<?php echo site_url(); ?>/privacy-statement/?iframe=true&width=90%&height=90%">Privacy Statement</a> | Copyright &copy; 2012 MEA-I
 
-  <a class="pull-right" href="http:://kilmulis.com" title="KILMULIS Design">KILMULIS Design</a>
+  <a class="pull-right" href="http://kilmulis.com" title="KILMULIS Design" target="_blank">KILMULIS Design</a>
 
 <?php wp_footer(); ?>
 </footer>

@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$blue".
-        on line 111 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/kutije.scss
+        on line 112 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/kutije.scss
 
 Backtrace:
-C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/kutije.scss:111
+C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/kutije.scss:112
 C:/Program Files/Scout/vendor/gems/gems/sass-3.1.7/lib/sass/../sass/script/variable.rb:50:in `_perform'
 C:/Program Files/Scout/vendor/gems/gems/sass-3.1.7/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files/Scout/vendor/gems/gems/sass-3.1.7/lib/sass/../sass/tree/visitors/perform.rb:215:in `visit_prop'
@@ -78,4 +78,4 @@ C:\Program Files\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 111 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/kutije.scss"; }
+  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 112 of C:/Web Sajtovi/mea-i.org/wp-content/themes/mea-i/sass/kutije.scss"; }

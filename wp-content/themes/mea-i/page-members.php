@@ -74,6 +74,13 @@
 	</div><!--/members-content-wrap-->
 <ul class="sidebar">
 <li><a id="logout" href="<?php echo wp_logout_url( home_url() ); ?>" title="Logout" class="simplemodal-login">Logout</a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/eng.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/fra.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/arb.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/rus.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/esp.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/por.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/chn.gif" alt=""></a></li>
 </ul>
 
 <footer>
@@ -81,7 +88,7 @@
 
  <a rel="loadedpage" href="<?php echo site_url(); ?>/terms-of-use/?iframe=true&width=90%&height=90%">Terms Of Use</a> |  <a rel="loadedpage" href="<?php echo site_url(); ?>/privacy-statement/?iframe=true&width=90%&height=90%">Privacy Statement</a> | Copyright &copy; 2012 MEA-I
 &nbsp;
-  <a class="pull-right" href="http:://kilmulis.com" title="KILMULIS Design">KILMULIS Design</a>
+  <a class="pull-right" href="http://kilmulis.com" title="KILMULIS Design" target="_blank">KILMULIS Design</a>
 
 <?php //wp_footer(); ?>
 </footer>

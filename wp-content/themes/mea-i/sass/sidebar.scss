@@ -7,13 +7,32 @@ ul.sidebar {
 ul.sidebar li a {
 	display: block;
 	margin: 0 0 10px 5px;
-	width: 39px;
-	height: 39px;
+	width: 40px;
+	height: 40px;
+	opacity:0.9;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+ul.sidebar li a:hover {
+	display: block;
+	margin: 0 0 10px 5px;
+	width: 40px;
+	height: 40px;
+	opacity:1;
+	transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
 }
 
 ul.sidebar li a img {
-	width: 39px;
-	height: 39px;
+	width: 40px;
+	height: 40px;
 }
 
 ul.sidebar a.simplemodal-login {

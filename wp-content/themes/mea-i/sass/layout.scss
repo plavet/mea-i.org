@@ -44,15 +44,6 @@ body {
 	font-weight:normal;
 }
 
-#page-wrap{
-	width:90%;
-	margin:60px 5% 0 5%;
-}
-
-.pull-right {
-	float: right;
-}
-
 span.vertical-center {
 	vertical-align: middle;
 	padding: 0 40px 40px 0;
@@ -91,17 +82,49 @@ a.post-edit-link {
 	margin: 0 0 20px 20px;
 }
 
-/*KUTIJE*/
-ul#menu-navigation {
-	width: 100%;
-	margin: 0 auto;
+/*HOME PAGE KUTIJE*/
+#home-wrap.format-link .home-content a {
+	color:#fff;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
 
-ul#menu-navigation li {
+#home-wrap.format-link .home-content a[rel="noloadedpage"] {
+	text-indent:-999999px;
+	bottom:0;
+	right:0;
+}
+
+.home-content a.post-edit-link {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: $orange;
+	width: 30px;
+	height: 10px;
+}
+
+#main-home-wrap {
+	width:90%;
+	margin:60px 5% 0 5%;
+	position: relative;
+}
+
+.home-content-wrap {
+	margin: 0 auto;
+	text-align: left;
+	border-bottom: 1px solid #3b3b3b;
+	padding-bottom: 20px;
+}
+
+#home-wrap {
+	position:relative;
 	width: 300px;
 	height: 300px;
-	float: left;
-	margin: 0 10px 20px 10px;
+	float:left;
+	margin: 10px;
+	color:#000;
 	opacity:0.9;
 	-webkit-transition:all 0.3s;
 	-moz-transition:all 0.3s;
@@ -110,7 +133,7 @@ ul#menu-navigation li {
 	transition:all 0.3s;
 }
 
-ul#menu-navigation li:hover {
+#home-wrap:hover {
 	opacity:1;
 	transform: scale(1.1,1.1);
 	-ms-transform: scale(1.1,1.1);
@@ -119,42 +142,111 @@ ul#menu-navigation li:hover {
 	-moz-transform: scale(1.1,1.1);
 }
 
-ul#menu-navigation li a {
+
+#home-wrap.format-link .yellow a {
+	color:#000;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.home-bg {
+	position:absolute;
+}
+
+.home-content {
+	position: absolute;
+	height: 300px;
+	width: 300px;
+}
+
+.home-content a {
+	color:#fff;
+	height:300px;
+	width:300px;
 	display:block;
-	height: 250px;
-	width: 250px;
-	text-decoration: none;
-	font-size: 24px;
-	padding: 25px;
-	float: left;
-	color: $bojaFonta;
+}
+
+.home-content h1 {
+	font-size: 42px;/*36*/
+	line-height: 46px;/*40*/
+	padding:10px 10px 0 10px
+}
+
+.home-content p {
+	font-size: 26px;
 	line-height: 30px;
+	padding: 10px 10px 0 10px;
 }
 
-ul#menu-navigation li h1 {
-	font-size: 36px;
-    line-height: 40px
+/*Pozadine kutija via custom fields*/
+.home-content .yellow a{
+	color: #000;
+	background: $yellow;
 }
 
-/*BOJE KUTIJA*/
-ul#menu-navigation li.blue { background-color:$blue; }
-ul#menu-navigation li.light-green { background-color:$lightGreen; }
-ul#menu-navigation li.light-red { background-color:$lightRed; }
-ul#menu-navigation li.yellow { background-color:$yellow; }
-ul#menu-navigation li.yellow a { color: #000; }
-ul#menu-navigation li.purple { background-color:$purple; }
-ul#menu-navigation li.light-blue { background-color:$lightBlue; }
-ul#menu-navigation li.orange { background-color:$orange; }
-ul#menu-navigation li.dark-red { background-color:$darkRed; }
-ul#menu-navigation li.dark-green { background-color:$darkGreen; }
-
-ul#menu-navigation li.home {
-	text-indent:-99999px;
-	background: #000 url(../images/mea-i-logo.png) no-repeat;
+.home-content .yellow {
+	color: #000;
+	background: $yellow;
+	height:100%;
 }
+
+.home-content .blue {
+	color:#fff;
+	background: $blue;
+	height:100%;
+}
+
+.home-content .lightGreen {
+	color:#fff;
+	background: $lightGreen;
+	height:100%;
+}
+
+.home-content .lightRed {
+	color:#fff;
+	background: $lightRed;
+	height:100%;
+}
+
+.home-content .purple {
+	color:#fff;
+	background: $purple;
+	height:100%;
+}
+
+.home-content .lightBlue {
+	color:#fff;
+	background: $lightBlue;
+	height:100%;
+}
+
+.home-content .orange {
+	color:#fff;
+	background: $orange;
+	height:100%;
+}
+
+.home-content .darkRed {
+	color:#fff;
+	background: $darkRed;
+	height:100%;
+}
+
+.home-content .darkGreen {
+	color:#fff;
+	background: $darkGreen;
+	height:100%;
+}
+
+.home-content .noHeader {
+	padding-top:11px;
+}
+
 
 iframe {
 	width: 100% !important;
+	margin-bottom: -20px; /*bug praznina od 2px do 20px*/
 	/*height: 100% !important;*/
 }
 

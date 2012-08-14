@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-	$('ul#menu-navigation').masonry({
-	  itemSelector: 'li',
+	$('.home-content-wrap').masonry({
+	  itemSelector: '#home-wrap',
 	  columnWidth: 180,
 	  gutterWidth: -20,
 	  isAnimated: true,
@@ -19,6 +19,10 @@ $("ul#menu-navigation li.home a").attr('rel', 'noloadedpage').each(function(){
 
 $("ul#menu-navigation li.gal1 a, ul#menu-navigation li.gal2 a, ul#menu-navigation li.gal3 a").attr('rel', 'galeryPage').each(function(){
         $(this).attr('href',$(this).attr('href').replace('?iframe=true&width=90%&height=90%',''));
+});
+
+$("#home-wrap.format-link .home-content a").attr('rel', 'noloadedpage').each(function(){
+        $(this).attr('href',$(this).attr('href').replace('?iframe=true&width=100%&height=100%',''));
 });
 
 $("a[rel^='loadedpage']").loadedPage({

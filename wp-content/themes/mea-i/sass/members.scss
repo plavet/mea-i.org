@@ -25,6 +25,7 @@ $footerLinks :#808080;
 
 iframe {
 	width: 100% !important;
+	margin-bottom: -20px; /*bug praznina od 2px do 20px*/
 	/*height: 100% !important;*/
 }
 

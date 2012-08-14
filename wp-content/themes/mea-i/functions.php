@@ -68,16 +68,23 @@ function twentyten_setup() {
 	// This theme allows users to set a custom background
 	 add_theme_support( 'custom-background' );
 
-	//Add custom sort lib
+	//Add custom sort lib for Home Page
+	require_once('lib/home/sort.php');
+
+	//Add custom sort lib for Member Area
 	require_once('lib/sort.php');
 
 	//Add post type formats
 	add_theme_support( 'post-formats', array( 'gallery', 'link' ) );
 	add_post_type_support( 'page', 'post-formats' ); 
 
-	// Add custom post type formats
+	// Add custom post type formats for Member Area
 	add_theme_support( 'post-formats', array( 'link' ) );
 	add_post_type_support( 'members', 'post-formats' );
+
+	// Add custom post type formats for Home Page
+	add_theme_support( 'post-formats', array( 'link' ) );
+	add_post_type_support( 'meai', 'post-formats' );
 
 	//Rename Featured Image Label
 	//add_action('do_meta_boxes', 'change_image_box');
@@ -501,5 +508,84 @@ function twentyten_posted_in() {
 }
 endif;
 
+/**CUSTOM MEA-I SIMPLE MODAL LOGIN BOX**/
+add_filter('simplemodal_login_form', 'mytheme_login_form');
+function mytheme_login_form($form) {
+	$users_can_register = get_option('users_can_register') ? true : false;
+	$options = get_option('simplemodal_login_options');
 
-/**CUSTOM BG**/
+	$output = sprintf('
+<form name="loginform" id="loginform" action="%s" method="post">
+	<div class="title">%s</div>
+	<div class="simplemodal-login-fields">
+	<p>
+		<label>%s<br />
+		<input type="text" name="log" class="user_login input" value="" size="20" tabindex="10" /></label>
+	</p>
+	<p>
+		<label>%s<br />
+		<input type="password" name="pwd" class="user_pass input" value="" size="20" tabindex="20" /></label>
+	</p>',
+		site_url('wp-login.php', 'login_post'),
+		__('Member Area Login', 'simplemodal-login'),
+		__('Username', 'simplemodal-login'),
+		__('Password', 'simplemodal-login')
+	);
+
+	ob_start();
+	do_action('login_form');
+	$output .= ob_get_clean();
+
+	$output .= sprintf('
+	<p class="forgetmenot"><label><input name="rememberme" type="checkbox" id="rememberme" class="rememberme" value="forever" tabindex="90" />%s</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" value="%s" tabindex="100" />
+		<input type="button" class="simplemodal-close" value="%s" tabindex="101" />
+		<input type="hidden" name="testcookie" value="1" />
+	</p>
+	<p class="nav">',
+		__('Remember Me', 'simplemodal-login'),
+		__('Log In', 'simplemodal-login'),
+		__('X', 'simplemodal-login')
+	);
+
+	if ($users_can_register && $options['registration']) {
+		$output .= sprintf('<a class="simplemodal-register" href="%s">%s</a>', 
+			site_url('wp-login.php?action=register', 'login'), 
+			__('Register', 'simplemodal-login')
+		);
+	}
+
+	if (($users_can_register && $options['registration']) && $options['reset']) {
+		$output .= ' | ';
+	}
+
+	if ($options['reset']) {
+		$output .= sprintf('<a class="simplemodal-forgotpw" href="%s" title="%s">%s</a>',
+			site_url('wp-login.php?action=lostpassword', 'login'),
+			__('Password Lost and Found', 'simplemodal-login'),
+			__('Lost your password?', 'simplemodal-login')
+		);
+	}
+
+	$output .= ' 
+	</p>
+	</div>
+	<div class="simplemodal-login-activity" style="display:none;"></div>
+</form>';
+
+	return $output;
+}
+
+/**
+ * Hooks the WP cpt_post_types filter
+ *
+ * @param array $post_types An array of post type names that the templates be used by
+ * @return array The array of post type names that the templates be used by
+ **/
+function my_cpt_post_types( $post_types ) {
+    $post_types[] = 'meai';
+    $post_types[] = 'members';
+    return $post_types;
+}
+add_filter( 'cpt_post_types', 'my_cpt_post_types' );

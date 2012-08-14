@@ -18,7 +18,7 @@ div.light_square .pp_close {
 
 a.pp_close {
 	position: absolute;
-	right: 15px;
+	right: 17px;
 	top: 22px;
 	display: block;
 	line-height: 38px;
@@ -43,11 +43,12 @@ a.pp_close {
 
 /*KUTIJE*/
 html, body {min-height: 100%;}
-#box-wrap {min-height: 100%;padding: 0 0 9% 0;}
+#box-wrap {min-height: 100%;padding: 0 0 5% 0;}
 
-.page-template-darkred-php #box-wrap {min-height: 100%;padding: 0 0 35% 0;}/*za kontakt kutiju-ubaciti media query*/
+.post-template-darkred-php #box-wrap {min-height: 100%;padding: 0 0 42% 0;}/*za kontakt kutiju-ubaciti media query*/
 
 .aside-box {
+	position: fixed;/*fixna leva strana kutija*/
 	float:left;
 	width:35%;
 	padding-bottom:625.625em;margin-bottom: -625.000em;
@@ -92,12 +93,12 @@ html, body {min-height: 100%;}
 /*individualne kutije*/
 
 /*blue*/
-body.page-template-blue-php{
+body.post-template-blue-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-blue-php #box-wrap{
+body.post-template-blue-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -112,12 +113,12 @@ span.close-bg-blue {
 }
 
 /*lightgreen*/
-body.page-template-lightgreen-php{
+body.post-template-lightgreen-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-lightgreen-php #box-wrap{
+body.post-template-lightgreen-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -132,12 +133,12 @@ span.close-bg-lightgreen {
 }
 
 /*lightred*/
-body.page-template-lightred-php{
+body.post-template-lightred-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-lightred-php #box-wrap{
+body.post-template-lightred-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -152,12 +153,12 @@ span.close-bg-lightred {
 }
 
 /*yellow*/
-body.page-template-yellow-php{
+body.post-template-yellow-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-yellow-php #box-wrap{
+body.post-template-yellow-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -172,12 +173,12 @@ span.close-bg-yellow {
 }
 
 /*purple*/
-body.page-template-purple-php{
+body.post-template-purple-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-purple-php #box-wrap{
+body.post-template-purple-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -192,12 +193,12 @@ span.close-bg-purple {
 }
 
 /*lightblue*/
-body.page-template-lightblue-php{
+body.post-template-lightblue-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-lightblue-php #box-wrap{
+body.post-template-lightblue-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -212,12 +213,12 @@ span.close-bg-lightblue {
 }
 
 /*orange*/
-body.page-template-orange-php{
+body.post-template-orange-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-orange-php #box-wrap{
+body.post-template-orange-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -232,12 +233,12 @@ span.close-bg-orange {
 }
 
 /*darkred*/
-body.page-template-darkred-php{
+body.post-template-darkred-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-darkred-php #box-wrap{
+body.post-template-darkred-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -252,12 +253,12 @@ span.close-bg-darkred {
 }
 
 /*darkgreen*/
-body.page-template-darkgreen-php{
+body.post-template-darkgreen-php{
 	background-color: #fff;
 	color: #000;
 }
 
-body.page-template-darkgreen-php #box-wrap{
+body.post-template-darkgreen-php #box-wrap{
 	overflow:hidden;
 }
 
@@ -293,63 +294,63 @@ span.close-bg-footerlink {
 
 
 /*boje kutija sa leve strane*/
-.page-template-blue-php .aside-box {
+.post-template-blue-php .aside-box {
 	background-color: $blue;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-lightgreen-php .aside-box {
+.post-template-lightgreen-php .aside-box {
 	background-color: $lightGreen;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-lightred-php .aside-box {
+.post-template-lightred-php .aside-box {
 	background-color: $lightRed;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-yellow-php .aside-box {
+.post-template-yellow-php .aside-box {
 	background-color: $yellow;
 	color: #000;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-purple-php .aside-box {
+.post-template-purple-php .aside-box {
 	background-color: $purple;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-lightblue-php .aside-box {
+.post-template-lightblue-php .aside-box {
 	background-color: $lightBlue;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-orange-php .aside-box {
+.post-template-orange-php .aside-box {
 	background-color: $orange;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-darkred-php .aside-box {
+.post-template-darkred-php .aside-box {
 	background-color: $darkRed;
 	color: #fff;
 	font-size:28px;
 	font-size:2.8rem;
 }
 
-.page-template-darkgreen-php .aside-box {
+.post-template-darkgreen-php .aside-box {
 	background-color: $darkGreen;
 	color: #fff;
 	font-size:28px;
@@ -365,19 +366,55 @@ span.close-bg-footerlink {
 
 /*POZADINE ZA GALERIJE*/
 
-ul#menu-navigation li.gal1 a {
+.gal1 a {
 	text-indent:-9999999px;
-	background: url('../images/thumbnails/g1.jpg') no-repeat;
+	/*background: url('../images/thumbnails/g1.jpg') no-repeat;*/
 }
 
-ul#menu-navigation li.gal2 a {
+.gal2 a {
 	text-indent:-9999999px;
-	background: url('../images/thumbnails/g2.jpg') no-repeat;
+	/*background: url('../images/thumbnails/g2.jpg') no-repeat;*/
 }
 
-ul#menu-navigation li.gal3 a {
+.gal3 a {
 	text-indent:-9999999px;
-	background: url('../images/thumbnails/g3.jpg') no-repeat;
+	/*background: url('../images/thumbnails/g3.jpg') no-repeat;*/
+}
+
+/*slike u galeriji*/
+body.page-template-gallery-php{
+
+}
+
+
+#gallery-wrap {
+	margin:0 auto;
+	padding: 60px 0 9% 0;
+}
+
+.wp-caption {
+	float:left;
+	border: none;
+	text-align: left;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	position:relative;
+	margin-bottom: 10px;
+}
+
+.wp-caption img {
+
+}
+
+p.wp-caption-text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: $blue;
+	height: 20px;
+	width: 480px;
+	padding: 10px;
 }
 
 /*izgled galerije*/

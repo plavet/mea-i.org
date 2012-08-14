@@ -1,9 +1,6 @@
 <?php
-/**
- * Template Name: Mea-I Blue
- *
- * @package WordPress
- * @subpackage Mea-I
+/*
+Template Name Posts: Mea-I Blue
  */
 ?>
 <!doctype html>

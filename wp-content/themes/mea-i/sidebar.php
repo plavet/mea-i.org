@@ -10,6 +10,13 @@
 
 <ul class="sidebar">
 <li><a id="login" href="/wp-login.php?redirect_to=/members-area" class="simplemodal-login">Log In</a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/eng.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/fra.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/arb.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/rus.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/esp.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/por.gif" alt=""></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/flags/chn.gif" alt=""></a></li>
 <?php
 
 	if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
